@@ -11,15 +11,17 @@ namespace GitTest
 	{
 		static void Main(string[] args)
 		{
-			MergeFail();
+			ConflictResolve();
 			Console.WriteLine("Git Test!");
 
-			MergeFail();
+			ConflictResolve();
 		}
 
-		private static void MergeFail()
+		private static void ConflictResolve()
 		{
-			Console.WriteLine("Merge Fail");
+			Console.WriteLine("Program::ConflictResolve() be called");
+
+			Console.WriteLine("Testing"); 
 		}
 	}
 }
