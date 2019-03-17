@@ -12,6 +12,7 @@ namespace GitTest
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Git Test!");
+			MissingClass.MissingFile();
 
 			MergeFail();
 		}
