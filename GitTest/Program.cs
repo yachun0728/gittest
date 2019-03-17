@@ -11,6 +11,7 @@ namespace GitTest
 	{
 		static void Main(string[] args)
 		{
+			MergeFail();
 			Console.WriteLine("Git Test!");
 
 			MergeFail();
