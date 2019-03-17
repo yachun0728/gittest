@@ -12,7 +12,7 @@ namespace GitTest
 		private static void NewMethod()
 		{
 			//do something
-			MergeFail();
+			ConflictResolve();
 			//do something
 		}
 
@@ -23,12 +23,14 @@ namespace GitTest
 			//remove mergeFail() call at start
 			Console.WriteLine("Git Test!");
 
-			MergeFail();
+			ConflictResolve();
 		}
 
-		private static void MergeFail()
+		private static void ConflictResolve()
 		{
-			Console.WriteLine("Program::MergeFail() be called" + "in master branch");
+			Console.WriteLine("Program::ConflictResolve() be called" + "in master branch");
+
+			Console.WriteLine("Testing"); 
 		}
 	}
 }
