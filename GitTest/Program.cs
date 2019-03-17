@@ -11,7 +11,7 @@ namespace GitTest
 	{
 		static void Main(string[] args)
 		{
-			MergeFail();
+			//remove mergeFail() call at start
 			Console.WriteLine("Git Test!");
 
 			MergeFail();
@@ -19,7 +19,7 @@ namespace GitTest
 
 		private static void MergeFail()
 		{
-			Console.WriteLine("Merge Fail");
+			Console.WriteLine("Program::MergeFail() be called" + "in master branch");
 		}
 	}
 }
