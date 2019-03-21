@@ -9,8 +9,17 @@ namespace GitTest
 {
 	public class Program
 	{
+		private static void NewMethod()
+		{
+			//do something
+			MergeFail();
+			//do something
+		}
+
 		static void Main(string[] args)
 		{
+			//add New Method
+			NewMethod();
 			//remove mergeFail() call at start
 			Console.WriteLine("Git Test!");
 
